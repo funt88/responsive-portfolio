@@ -172,6 +172,12 @@ footer {
   border: 1px solid #ddd;
   overflow: auto;
 }
+@media only screen and (max-width: 640px) {
+  .sidebar {
+    width: 100%;
+    max-width: 100%;
+  }
+}
 
 h3,
 .sidebar h2 {
@@ -205,7 +211,12 @@ h3,
   float: left;
   margin: 20px 0 25px;
 }
-
+@media only screen and (max-width: 640px) {
+  .work {
+    width: 100%;
+  }
+}
+ 
 .work:nth-child(even) {
   margin-right: 40px;
 }
@@ -282,7 +293,7 @@ input[type=submit] {
 
 
 
-/*  Media queries */
+/*  Media queries 
 @media only screen and (max-width: 980px) {
  (Images/980-index.jpg) 
 }
@@ -295,3 +306,4 @@ input[type=submit] {
   (Images/640-index.jpg)
 }
  
+*/
